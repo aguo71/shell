@@ -6,7 +6,7 @@ My shell is structured such that all my code is stored in sh.c. The main functio
 ### How to compile 
 The command:' make all ' will compile the executables 33sh and 33noprompt, which are sh.c compiled with or without the PROMPT flag respectively. The makefile is also capable of ' make clean all ', or ' make test ' (which runs the test suite). 
 
-# shell-2
+### Features of shell-2
 In addition to the features of shell 1, some changes to the shell include:
 
 1. A small addition to parse which now takes in an extra argument background 
